@@ -17,11 +17,6 @@ namespace Practica
             InitializeComponent();
         }
 
-        private void BDividir_Click(object sender, EventArgs e)
-        {
-            double num1 = double.Parse(TNum1.Text);
-            double num2 = double.Parse(TNum2.Text);
-            MessageBox.Show((num1 / num2).ToString());
-        }
+
     }
 }
