@@ -19,7 +19,10 @@ namespace Practica
 
         private void BMultiplicar_Click(object sender, EventArgs e)
         {
-            
+            double num1 = int.Parse(TBNum1.Text);
+            double num2 = int.Parse(TBNum2.Text);
+            double resultado = num1 * num2;
+            MessageBox.Show(resultado.ToString());
         }
     }
 }
