@@ -16,7 +16,6 @@ namespace Practica
         {
             InitializeComponent();
         }
-
-        jjjj
+        lamamadelamamdelamama
     }
 }
